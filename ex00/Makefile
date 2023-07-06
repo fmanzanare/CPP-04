@@ -6,7 +6,7 @@
 #    By: fmanzana <fmanzana@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/06 20:11:20 by fmanzana          #+#    #+#              #
-#    Updated: 2023/07/06 21:56:22 by fmanzana         ###   ########.fr        #
+#    Updated: 2023/07/06 22:04:25 by fmanzana         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,5 +40,7 @@ clean:
 fclean:	clean
 	@rm -f $(NAME)
 	@echo "Everything cleaned!"
+
+re:	fclean all
 
 .PHONY: all clean fclean re

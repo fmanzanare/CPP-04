@@ -6,7 +6,7 @@
 /*   By: fmanzana <fmanzana@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/06 21:02:13 by fmanzana          #+#    #+#             */
-/*   Updated: 2023/07/07 10:59:00 by fmanzana         ###   ########.fr       */
+/*   Updated: 2023/07/07 11:30:17 by fmanzana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #include "WrongCat.hpp"
 
 int main(void) {
+	//Example 01
 	// const AAnimal* meta = new AAnimal();
 	const AAnimal* j = new Dog();
 	const AAnimal* i = new Cat();
@@ -34,6 +35,20 @@ int main(void) {
 	wc->makeSound();
 
 	delete wc;
+
+	// Example 02.
+	const AAnimal *arr[10];
+
+	for (int i = 0; i < 10; i++) {
+		if (i < 5)
+			arr[i] = new Dog();
+		else
+			arr[i] = new Cat();
+	}
+
+	for (int i = 0; i < 10; i++) {
+		delete arr[i];
+	}
 
 	return 0;
 }

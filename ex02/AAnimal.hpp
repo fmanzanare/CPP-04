@@ -6,12 +6,12 @@
 /*   By: fmanzana <fmanzana@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/06 20:14:06 by fmanzana          #+#    #+#             */
-/*   Updated: 2023/07/07 10:58:48 by fmanzana         ###   ########.fr       */
+/*   Updated: 2023/07/07 11:09:47 by fmanzana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-#define ANIMAL_HPP
+#ifndef AANIMAL_HPP
+#define AANIMAL_HPP
 
 #include <iostream>
 
